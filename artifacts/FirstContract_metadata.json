@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FirstContract.sol": "FirstContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FirstContract.sol": {
+			"keccak256": "0xc684d15d2d0708dc610b1830396a13bd9e2c776cc0e2a781d70aeb6261f44d1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4dcb77c4d09281577cb4daf1a6cd22c6dcad9171338224a98cb215be3b973f8b",
+				"dweb:/ipfs/QmZhQyuqwjQRj98FUXcxy8uP6wMG46pL9mCPnPmLz72Jnf"
+			]
+		}
+	},
+	"version": 1
+}
