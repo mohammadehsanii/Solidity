@@ -7,15 +7,41 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "get_a",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_c",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"project1.sol": "project1"
+			"project2.sol": "project1"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"project1.sol": {
-			"keccak256": "0x0d391a9376cb5073de78dca42f6b3b6086876e82ff172f3fe0fa529a65c929b9",
+		"project2.sol": {
+			"keccak256": "0x06f1e4c2b3a7efbc7dd20bfc45857d6328aa8bb2440c9930431c8d3d6e734ceb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da75a4a674222cb5ac7dd01d7881933ed8890fbe5fb7ac6c4a6c0739b2d4e1d9",
-				"dweb:/ipfs/QmYYac69mSB9vFPwpd18Tuug3SLfbGEjRPYgWCMZvGACUH"
+				"bzz-raw://d78e3e428d61524e7b87c7d73c03fb8851b857c7b2c180f6ebc323ba2f3fe6aa",
+				"dweb:/ipfs/QmUZGMp61reCAeMbqkDSkqrtUvvrqv4MhAoug4CX8AipGz"
 			]
 		}
 	},
